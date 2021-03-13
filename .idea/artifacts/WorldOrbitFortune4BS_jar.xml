@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WorldOrbitFortune4BS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WorldOrbitFortune4BS_jar</output-path>
+    <root id="archive" name="WorldOrbitFortune4BS.jar">
+      <element id="module-output" name="WorldOrbitFortune4BS" />
+    </root>
+  </artifact>
+</component>
