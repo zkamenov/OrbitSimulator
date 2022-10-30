@@ -232,7 +232,7 @@ class Central {
 
                 camX = (p.z > 0 ? bodies[trackedObject].observept*atan(p.x / p.z) : bodies[trackedObject].observept*atan(p.x / p.z) + PI);
 
-                //if ((camY+90) % 360 > 180)
+                //if ((camY+90) % 360*8 > 180)
                 camY = (-atan(p.y / sqrt(p.x * p.x + p.z * p.z)));
             }
             //System.out.println((double)-observeCoord.y/(double)bodies[trackedObject].map.getHeight()*PI);

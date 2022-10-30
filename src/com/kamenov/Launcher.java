@@ -19,6 +19,12 @@ public class Launcher extends JFrame {
     private JButton launchButton;
     private JTextField a128TextField;
     private JTextPane creditsSolarSystemScopeTextPane;
+    private JLabel aztx;
+    private JLabel abz;
+    private JLabel arz;
+    private JLabel aba;
+    private JPanel jp1;
+    private JPanel jp2;
 
     public Launcher() {
         setContentPane(contentPane);
